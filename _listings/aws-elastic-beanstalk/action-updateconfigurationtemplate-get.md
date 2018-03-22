@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateConfigurationTemplate&k=1:
+  /?Action=UpdateConfigurationTemplate:
     get:
       summary: ' Update Configuration Template '
       description: |-
