@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateEnvironment&k=1:
+  /?Action=CreateEnvironment:
     get:
       summary: ' Create Environment '
       description: |-
