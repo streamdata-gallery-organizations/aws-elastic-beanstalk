@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEnvironmentHealth&k=1:
+  /?Action=DescribeEnvironmentHealth:
     get:
       summary: ' Describe Environment Health '
       description: Returns information about the overall health of the specified environment
