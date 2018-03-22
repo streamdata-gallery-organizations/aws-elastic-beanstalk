@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ValidateConfigurationSettings&k=1:
+  /?Action=ValidateConfigurationSettings:
     get:
       summary: ' Validate Configuration Settings '
       description: |-
