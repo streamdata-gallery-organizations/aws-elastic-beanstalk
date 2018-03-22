@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AbortEnvironmentUpdate&k=1:
+  /?Action=AbortEnvironmentUpdate:
     get:
       summary: ' Abort Environment Update '
       description: |-
