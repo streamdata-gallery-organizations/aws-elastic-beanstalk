@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConfigurationOptions&k=1:
+  /?Action=DescribeConfigurationOptions:
     get:
       summary: ' Describe Configuration Options '
       description: |-
