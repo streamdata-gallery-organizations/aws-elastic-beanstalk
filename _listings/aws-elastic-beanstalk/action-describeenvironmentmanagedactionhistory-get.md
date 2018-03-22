@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEnvironmentManagedActionHistory&k=1:
+  /?Action=DescribeEnvironmentManagedActionHistory:
     get:
       summary: ' Describe Environment Managed Action History '
       description: Lists an environment's completed and failed managed actions
