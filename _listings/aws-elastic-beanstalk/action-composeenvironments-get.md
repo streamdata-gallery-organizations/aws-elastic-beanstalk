@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ComposeEnvironments&k=1:
+  /?Action=ComposeEnvironments:
     get:
       summary: ' Compose Environments '
       description: |-
