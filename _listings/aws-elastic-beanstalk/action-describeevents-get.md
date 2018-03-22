@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEvents&k=1:
+  /?Action=DescribeEvents:
     get:
       summary: ' Describe Events '
       description: Returns list of event descriptions matching criteria up to the
