@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeInstancesHealth&k=1:
+  /?Action=DescribeInstancesHealth:
     get:
       summary: ' Describe Instances Health '
       description: |-
