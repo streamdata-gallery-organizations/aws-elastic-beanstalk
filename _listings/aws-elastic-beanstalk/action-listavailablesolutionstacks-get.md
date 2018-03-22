@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListAvailableSolutionStacks&k=1:
+  /?Action=ListAvailableSolutionStacks:
     get:
       summary: ' List Available Solution Stacks '
       description: Returns a list of the available solution stack names
