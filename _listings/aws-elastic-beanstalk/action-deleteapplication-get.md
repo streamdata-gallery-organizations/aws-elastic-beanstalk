@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteApplication&k=1:
+  /?Action=DeleteApplication:
     get:
       summary: ' Delete Application '
       description: |-
