@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateApplicationVersion&k=1:
+  /?Action=CreateApplicationVersion:
     get:
       summary: ' Create Application Version '
       description: Creates an application version for the specified application
