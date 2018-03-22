@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeApplicationVersions&k=1:
+  /?Action=DescribeApplicationVersions:
     get:
       summary: ' Describe Application Versions '
       description: Retrieve a list of application versions
