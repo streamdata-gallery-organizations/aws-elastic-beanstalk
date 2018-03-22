@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RetrieveEnvironmentInfo&k=1:
+  /?Action=RetrieveEnvironmentInfo:
     get:
       summary: ' Retrieve Environment Info '
       description: Retrieves the compiled information from a
