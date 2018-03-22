@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=SwapEnvironmentCNAMEs&k=1:
+  /?Action=SwapEnvironmentCNAMEs:
     get:
       summary: ' Swap Environment C N A M Es '
       description: Swaps the CNAMEs of two environments
