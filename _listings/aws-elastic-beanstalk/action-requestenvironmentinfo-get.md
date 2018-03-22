@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RequestEnvironmentInfo&k=1:
+  /?Action=RequestEnvironmentInfo:
     get:
       summary: ' Request Environment Info '
       description: |-
