@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ApplyEnvironmentManagedAction&k=1:
+  /?Action=ApplyEnvironmentManagedAction:
     get:
       summary: ' Apply Environment Managed Action '
       description: Applies a scheduled managed action immediately
