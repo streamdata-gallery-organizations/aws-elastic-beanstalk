@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEnvironmentResources&k=1:
+  /?Action=DescribeEnvironmentResources:
     get:
       summary: ' Describe Environment Resources '
       description: Returns AWS resources for this environment
