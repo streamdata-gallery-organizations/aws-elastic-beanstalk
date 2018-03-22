@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEnvironments&k=1:
+  /?Action=DescribeEnvironments:
     get:
       summary: ' Describe Environments '
       description: Returns descriptions for existing environments
