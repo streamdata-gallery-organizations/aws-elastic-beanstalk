@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateEnvironment&k=1:
+  /?Action=UpdateEnvironment:
     get:
       summary: ' Update Environment '
       description: |-
