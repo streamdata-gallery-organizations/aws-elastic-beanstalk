@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConfigurationTemplate&k=1:
+  /?Action=DeleteConfigurationTemplate:
     get:
       summary: ' Delete Configuration Template '
       description: Deletes the specified configuration template
