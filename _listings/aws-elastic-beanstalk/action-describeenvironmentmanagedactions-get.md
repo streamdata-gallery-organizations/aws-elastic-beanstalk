@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEnvironmentManagedActions&k=1:
+  /?Action=DescribeEnvironmentManagedActions:
     get:
       summary: ' Describe Environment Managed Actions '
       description: Lists an environment's upcoming and in-progress managed actions
