@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteApplicationVersion&k=1:
+  /?Action=DeleteApplicationVersion:
     get:
       summary: ' Delete Application Version '
       description: Deletes the specified version from the specified application
