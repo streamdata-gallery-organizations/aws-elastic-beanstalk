@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RebuildEnvironment&k=1:
+  /?Action=RebuildEnvironment:
     get:
       summary: ' Rebuild Environment '
       description: |-
