@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateApplicationVersion&k=1:
+  /?Action=UpdateApplicationVersion:
     get:
       summary: ' Update Application Version '
       description: Updates the specified application version to have the specified
