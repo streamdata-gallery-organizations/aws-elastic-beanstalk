@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteEnvironmentConfiguration&k=1:
+  /?Action=DeleteEnvironmentConfiguration:
     get:
       summary: ' Delete Environment Configuration '
       description: Deletes the draft configuration associated with the running environment
