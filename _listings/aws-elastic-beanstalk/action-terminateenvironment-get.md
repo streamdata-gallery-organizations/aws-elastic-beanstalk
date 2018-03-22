@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=TerminateEnvironment&k=1:
+  /?Action=TerminateEnvironment:
     get:
       summary: ' Terminate Environment '
       description: Terminates the specified environment
