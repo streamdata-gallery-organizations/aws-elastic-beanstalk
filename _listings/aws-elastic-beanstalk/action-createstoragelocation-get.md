@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateStorageLocation&k=1:
+  /?Action=CreateStorageLocation:
     get:
       summary: ' Create Storage Location '
       description: Creates the Amazon S3 storage location for the account
