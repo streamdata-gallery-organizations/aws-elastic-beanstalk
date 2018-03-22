@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateConfigurationTemplate&k=1:
+  /?Action=CreateConfigurationTemplate:
     get:
       summary: ' Create Configuration Template '
       description: Creates a configuration template
