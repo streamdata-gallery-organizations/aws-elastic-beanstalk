@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateApplicationResourceLifecycle&k=1:
+  /?Action=UpdateApplicationResourceLifecycle:
     get:
       summary: ' Update Application Resource Lifecycle '
       description: Modifies lifecycle settings for an application
