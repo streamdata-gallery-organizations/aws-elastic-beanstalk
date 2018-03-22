@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateApplication&k=1:
+  /?Action=UpdateApplication:
     get:
       summary: ' Update Application '
       description: Updates the specified application to have the specified properties
