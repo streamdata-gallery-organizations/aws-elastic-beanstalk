@@ -1,9 +1,9 @@
-title: Streamdata Gallery
-url: aws-elastic-beanstalk.api.streamdata.gallery
+title: Streamdata Gallery AWS Elastic Beanstalk
+url: aws-elastic-beanstalk.streamdata.gallery
 tag: AWS Elastic Beanstalk
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-organizations
+github_user: streamdata-gallery
 github_repo: aws-elastic-beanstalk
 github_branch: master
 collections:
