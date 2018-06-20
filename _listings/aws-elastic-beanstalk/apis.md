@@ -12,10 +12,10 @@ description: AWS Elastic Beanstalk is an easy-to-use service for deploying and s
   your applications.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AWSElasticBeanstalk.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: AWS Elastic Beanstalk
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/aws-elastic-beanstalk/master/_listings/aws-elastic-beanstalk/apis.md
 specificationVersion: "0.14"
 apis:
